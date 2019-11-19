@@ -1,0 +1,374 @@
+/*extention module*/
+
+.extntion-form-box {
+	border: 1px solid #ddd;
+}
+
+.delete-lable-box {
+	background-color: #329886;
+	font-weight: bold;
+	font-size: initial;
+}
+
+.extention-page .card-body {
+	padding: 10px!important;
+}
+
+.extention-page .delete-another-department {
+	margin-top: 10px;
+}
+
+
+/*extention css end*/
+
+
+/*apartment css start*/
+
+.apprtment-checkbox label {
+	font-size: 15px!important;
+}
+
+.apprtment-checkbox .fa-bed {
+	font-size: 40px!important;
+}
+
+
+/*apartment css end*/
+
+
+/*booking css start*/
+
+.fa-ellipsis-v {
+	font-size: 22px!important;
+}
+
+.staff_circle {
+	font-weight: 400;
+	border-radius: 50%;
+	background-color: #577083;
+	color: #fff;
+	width: 145px;
+	height: 145px;
+	overflow: hidden;
+	margin: auto !important;
+	font-size: 20px;
+	line-height: 145px;
+	text-align: center;
+	margin-left: 52px;
+}
+
+#add-staff-div {
+	background: none!important;
+	border: 1px dashed #329886!important;
+}
+
+
+/*booking option*/
+
+.bookingoption-icon {
+	font-size: 80px!important;
+}
+
+.img-140
+{
+width:140px!important;
+height:140px!important;	
+}
+.img-100
+{
+width:100px!important;
+height:100px!important;	
+}
+.profile-appointment
+{
+	position:relative;
+	
+}
+.profile-appointment label{
+	position: absolute;
+    top: 64px;
+    left: 15%;
+	opacity:0;
+	transition: opacity .35s ease;
+}
+
+.profile-appointment .ment-pic-label
+{
+    left: 20%!important;	
+}
+
+
+.profile-appointment:hover .apt-prf-label{
+ 
+	opacity:1;
+ 
+} 
+ 
+ .aditional_datearea{
+    padding: 0px 8px 14px 8px;
+    border: 1px solid #ddd;
+}	
+/*staff profile image*/
+
+.staff-img-container {
+	position: relative;
+	width: 150px;
+}
+
+.new_staff_add .staff_img {
+	border: 1px solid #eee;
+}
+
+.staff-img-container .button {
+	top: 83px;
+	width: 150px;
+	text-align: center;
+	opacity: 0;
+	position: absolute;
+	transition: opacity .35s ease;
+}
+
+.staff-img-container:hover .button {
+	opacity: 1;
+}
+
+
+/*staff profile image*/
+
+
+/*appointment page css*/
+
+.copy-edit-area {
+	border-left: 1px solid #dbdbdb;
+}
+
+.drop-down-popup
+{
+ 
+    left:0!important;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.31);
+	 
+}	
+
+/*appointment page css end*/
+.drop-down-list
+{
+	max-height:250px;
+	overflow:auto;
+}
+
+.drop-down-list .dropdown-item
+{
+	padding:10px!important;
+	
+}
+ .drop-down-list .dropdown-item:hover 
+{
+	background:#329886; color:#fff;
+	
+}
+.drop-down-popup .footer
+{ 
+left:0!important;
+background:#fff;
+
+}
+ 
+/*booking css end*/
+
+
+/*please use code uper side for new css*/
+
+.dash_box {
+	border-radius: 0px!important;
+	background: #329886!important;
+}
+
+.dash_box i {
+	color: #fff!important;
+	font-size: 50px!important;
+}
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.redstar label:after {
+	content: "*";
+	padding: 5px;
+	color: red;
+}
+
+
+/*display none*/
+
+.display_none,
+.hide {
+	display: none;
+}
+
+
+/*heading h4*/
+
+.custom-h4 {
+	font-size: 18px!important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+
+/*jquery form validate css*/
+
+input.error,
+select.error,
+textarea.error,
+radio.error,
+checkbox.error {
+	border: 1px solid red !important;
+	color: red !important;
+}
+
+label.error {
+	display: none!important;
+}
+
+
+/*dash board*/
+
+.dashboard_box a {
+	color: #26A69A;
+}
+
+.dashboard_box .col-md-6 p:nth-child(2) {
+	height: 90px;
+}
+
+#sidebar-menu {
+	padding-top: 0px!important;
+}
+
+.widget-bg-color-icon .bg-icon-info {
+	background-color: rgba(52, 211, 235, 0.2);
+	margin: auto;
+	border: 1px solid #d6f6fb;
+}
+
+.text-info {
+	color: #329886!important;
+}
+
+
+/*code for profile page*/
+
+.faqbackground {
+	padding-top: 15px;
+	margin-bottom: 10px;
+	background: #ebeff2;
+}
+
+.bootstrap-tagsinput {
+	width: 100% !important;
+}
+
+
+/*login page code*/
+
+.login_left {
+	background: #329886;
+}
+
+.login_right {
+	left: 50%;
+	width: 100%;
+	background: #fff;
+}
+
+.login-form-box {
+	border: none!important;
+}
+
+.loginform,
+.forgotform {
+	margin-top: 20%;
+}
+
+.heading {
+	font-size: 25px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+
+/*formbuilder page css*/
+
+.custom-btn-circle {
+	border-radius: 50px;
+	background: #e6f0f6;
+}
+
+.custom-btn-circle i {
+	font-size: 15px;
+}
+
+.cb-wrap .form-actions button {
+	display: none!important;
+}
+
+
+/*form page css*/
+
+.slider-right {
+	left: 664.5px;
+}
+
+.custom_select {
+	height: 35px!important;
+}
+
+.form-build-hide{
+position:absolute;
+left:-4000px;	
+}
+
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 768px) {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	/*first page of login*/
+	.ex-page-content {
+		display: none;
+	}
+	.login_left {
+		background: #fff!important;
+	}
+	.login_right {
+		left: 59%;
+		width: 45%;
+		background: #fff!important;
+	}
+	/*search area*/
+	.search_by_date {
+		text-align: left!important;
+		padding: 0px;
+		padding-bottom: 13px;
+	}
+	.search-row-count {
+		float: left!important;
+	}
+	/*booking module*/
+	.padding_0 {
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+	}
+	.center_small {
+		text-align: center!important;
+	}
+	/*appoinment page css*/
+	.copy-edit-area {
+		border-left: none;
+		 
+	}
+ 
+	/*appoinment page css end*/
+	/*booking module*/
+}

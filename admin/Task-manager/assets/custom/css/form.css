@@ -1,0 +1,287 @@
+
+
+fieldset, label { margin: 0; padding: 0; }
+
+        h1 { font-size: 1.5em; margin: 10px; }
+
+        /****** Style Star Rating Widget *****/
+
+        .rating { 
+            border: none;
+            float: left;
+        }
+
+        .rating > input { display: none; } 
+        .rating > label:before { 
+            margin: 5px;
+            font-size: 1.25em;
+            font-family: FontAwesome;
+            display: inline-block;
+            content: "\f005";
+        }
+
+        .rating > .half:before { 
+            content: "\f089";
+            position: absolute;
+        }
+
+        .rating > label { 
+            color: #ddd; 
+            float: right; 
+        }
+
+        /***** CSS Magic to Highlight Stars on Hover *****/
+
+        .rating > input:checked ~ label, /* show gold star when clicked */
+        .rating:not(:checked) > label:hover, /* hover current star */
+        .rating:not(:checked) > label:hover ~ label { color: #FFD700 !important;  } /* hover previous stars in list */
+
+        .rating > input:checked + label:hover, /* hover current star when changing rating */
+        .rating > input:checked ~ label:hover,
+        .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+        .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+        
+        /// lead forms
+        
+           .form-box{
+        height: 140px;
+        padding: 0;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 14px;
+        border: 1px solid #66ADB1 !important;
+        vertical-align: baseline;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        top: 2px
+    }
+    
+    //lead list 
+    
+       th.sorting_asc {
+        width: 140px !important;
+    }
+    td {
+        font-size: 13px !important;
+    }
+    .btn-group>.dropdown-menu:after,
+    .dropdown-toggle>.dropdown-menu:after,
+    .dropdown>.dropdown-menu:after {
+        position: absolute;
+        top: -7px;
+        left: 50px !important;
+        right: auto;
+        display: inline-block!important;
+        border-right: 7px solid transparent;
+        border-bottom: 7px solid #fff;
+        border-left: 7px solid transparent;
+        content: '';
+    }
+    .btn-group>.dropdown-menu:before,
+    .dropdown-toggle>.dropdown-menu:before,
+    .dropdown>.dropdown-menu:before {
+        position: absolute;
+        top: -8px;
+        left: 50px !important;
+        right: auto;
+        display: inline-block!important;
+        border-right: 8px solid transparent;
+        border-bottom: 8px solid #e0e0e0;
+        border-left: 8px solid transparent;
+        content: '';
+    }
+    .btn-group>.dropdown-menu,
+    .dropdown-toggle>.dropdown-menu,
+    .dropdown>.dropdown-menu {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+    .bars,
+    .chart,
+    .pie {
+        height: 0px !important;
+    }
+    .fixed-table-container {
+        height: auto !important;
+    }
+    .fixed-table-footer {
+        display: none !important;
+    }
+    .fixed-table-container {
+        clear: none !important;
+    }
+    .fixed-table-toolbar {
+        width: 100%;
+        height: 65px;
+        /*margin-top: -40px;*/
+    }
+    .fixed-table-header {
+        display: none !important;
+    }
+    .fixed-table-loading {
+        top: 55px !important;
+    }
+    // form render 
+     pre {
+        max-width: 1080px;
+        margin: auto;
+    }
+    
+       .form-wrap.form-builder .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   margin: 10px;
+   }
+   .form-wrap.form-builder .btn-group>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+   border-radius: 0;
+   margin: 10px;
+   }
+   .form-wrap.form-builder .btn-group>.btn {
+   position: relative;
+   float: left;
+   margin: 10px;
+   }
+   
+    th.sorting_asc {
+
+        width: 140px !important;
+
+    }
+
+    td {
+
+        font-size: 13px !important;
+
+    }
+
+    .btn-group>.dropdown-menu:after,
+
+    .dropdown-toggle>.dropdown-menu:after,
+
+    .dropdown>.dropdown-menu:after {
+
+        position: absolute;
+
+        top: -7px;
+
+        left: 50px !important;
+
+        right: auto;
+
+        display: inline-block!important;
+
+        border-right: 7px solid transparent;
+
+        border-bottom: 7px solid #fff;
+
+        border-left: 7px solid transparent;
+
+        content: '';
+
+    }
+
+    .btn-group>.dropdown-menu:before,
+
+    .dropdown-toggle>.dropdown-menu:before,
+
+    .dropdown>.dropdown-menu:before {
+
+        position: absolute;
+
+        top: -8px;
+
+        left: 50px !important;
+
+        right: auto;
+
+        display: inline-block!important;
+
+        border-right: 8px solid transparent;
+
+        border-bottom: 8px solid #e0e0e0;
+
+        border-left: 8px solid transparent;
+
+        content: '';
+
+    }
+
+    .btn-group>.dropdown-menu,
+
+    .dropdown-toggle>.dropdown-menu,
+
+    .dropdown>.dropdown-menu {
+
+        margin-top: 10px;
+
+        margin-left: 0px !important;
+
+    }
+
+    .bars,
+
+    .chart,
+
+    .pie {
+
+        height: 0px !important;
+
+    }
+
+    .fixed-table-container {
+
+        height: auto !important;
+
+    }
+
+    .fixed-table-footer {
+
+        display: none !important;
+
+    }
+
+    .fixed-table-container {
+
+        clear: none !important;
+
+    }
+
+    .fixed-table-toolbar {
+
+        width: 100%;
+
+        height: 65px;
+
+        /*margin-top: -40px;*/
+
+    }
+
+    .fixed-table-header {
+
+        display: none !important;
+
+    }
+
+    .fixed-table-loading {
+
+        top: 55px !important;
+
+    }
+
+    .className-wrap{
+        display: none !important;
+    }
+	
+	.account-pages {
+    background: transparent !important;
+    position: relative !important;
+    height: 100%;
+    width: 100%;
+}
+.name-wrap {
+visibility: hidden;
+}

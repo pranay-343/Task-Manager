@@ -1,0 +1,18 @@
+.topbar .topbar-left, .topbar .navbar-custom, .button-menu-mobile {
+    background: #486273;
+}
+#sidebar-menu ul li a:hover, #sidebar-menu .subdrop {
+    background: #486273!important;
+    color: #fff!important;
+}
+
+
+
+#sidebar-menu ul li a i, #sidebar-menu ul li a span, .list-unstyled li a {
+    color: #fff!important;
+}
+#sidebar-menu .subdrop {
+    background: #486273 !important;
+    border-left: 3px solid #486273;
+}
+
