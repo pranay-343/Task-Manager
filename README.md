@@ -19,7 +19,7 @@ Create Users,
 Assign Tasks,
 Manage Tasks,
 Comment on individual tasks,
-Task History,
+View Task History
 
 Login URL : http://35.245.186.20/Task-manager/
 Username : pranay@gmail.com
