@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  require APPPATH . 'core/Rest_Controller.php';
  
 /**
-    Created By Sukhdev Pawar (24-09-2019)
+    
  * Controller for all Toke Refresh, etc..
  */ 
 
