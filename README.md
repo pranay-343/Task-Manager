@@ -1,16 +1,26 @@
-# task_manager
+# Task Manager
 
-A new Flutter application.
+A Dart application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This repository contains both admin and mobile app code.
 
-A few resources to get you started if this is your first Flutter project:
+## How to install :
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+We can provide only android apk built and ios built on demand as it requires UDID of ios device on which app is needed to be installed. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Go to the folder android Apk File and download the apk file on your android device.
+
+## Admin Panel :
+
+Fetures : 
+Create Users
+Assign Tasks
+Manage Tasks
+Comment on individual tasks
+Task History
+
+Login URL : http://35.245.186.20/Task-manager/
+Username : pranay@gmail.com
+Password : 123456
