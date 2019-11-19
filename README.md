@@ -15,11 +15,11 @@ Go to the folder android Apk File and download the apk file on your android devi
 ## Admin Panel :
 
 Fetures : 
-Create Users
-Assign Tasks
-Manage Tasks
-Comment on individual tasks
-Task History
+Create Users,
+Assign Tasks,
+Manage Tasks,
+Comment on individual tasks,
+Task History,
 
 Login URL : http://35.245.186.20/Task-manager/
 Username : pranay@gmail.com
