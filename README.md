@@ -14,7 +14,7 @@ Go to the folder android Apk File and download the apk file on your android devi
 
 ## Admin Panel :
 
-Fetures : 
+Features : 
 Create Users,
 Assign Tasks,
 Manage Tasks,
