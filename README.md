@@ -8,7 +8,7 @@ This repository contains both admin and mobile app code.
 
 ## How to install :
 
-We can provide only android apk built and ios built on demand as it requires UDID of ios device on which app is needed to be installed. 
+We can provide only android APK built and iOS built on demand as it requires UDID of ios device on which app is needed to be installed. 
 
 Go to the folder android Apk File and download the apk file on your android device.
 
